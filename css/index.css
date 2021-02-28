@@ -245,3 +245,353 @@ body {
 }
 
 /*styles for main*/
+
+/*styles for about*/
+.about {}
+
+.about-items {
+   display: flex;
+}
+
+.about-vehicle {}
+
+.vehicle {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid red;
+   flex: 1 1 33.333%;
+   background: url(/assets/image/about/vehicle.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+
+}
+
+.vehicle-inner {}
+
+.vehicle__title {
+   font-size: 60px;
+   font-weight: bold;
+   color: #000000;
+   margin-bottom: 11px;
+}
+
+.vehicle__text {
+   font-size: 14px;
+   color: #92a1a5;
+}
+
+
+.about-fly {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex: 1 1 66.667%;
+   height: 614px;
+   background: url(/assets/image/about/view.png);
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+   position: relative;
+}
+
+.about-fly::before {
+   content: " ";
+   width: 616px;
+   height: 614px;
+   opacity: 0.65;
+   background-color: #000000;
+   position: absolute;
+   t0+l0
+}
+
+.fly__title {
+   font-size: 59px;
+   font-weight: bold;
+   color: #ffffff;
+   max-width: 352px;
+   margin-left: 90px;
+   position: relative;
+   z-index: 2px;
+}
+
+.fly__link {
+   height: 57px;
+   width: 182px;
+   transform: rotate(-90deg);
+   line-height: 57px;
+   padding: 0 0 0 40px;
+   border-radius: 28.5px;
+   background-color: #ffffff;
+   position: absolute;
+   top: 293px;
+   right: 62px;
+   -webkit-transform: rotate(-90deg);
+   -moz-transform: rotate(-90deg);
+   -ms-transform: rotate(-90deg);
+   -o-transform: rotate(-90deg);
+}
+
+.btn {
+   height: 57px;
+   width: 182px;
+   line-height: 57px;
+   padding: 0 0 0 40px;
+   border-radius: 28.5px;
+   -webkit-border-radius: 28.5px;
+   -moz-border-radius: 28.5px;
+   -ms-border-radius: 28.5px;
+   -o-border-radius: 28.5px;
+   text-transform: uppercase;
+}
+
+.btn:active {
+   color: red;
+}
+
+/*styles for about*/
+/*styles for features */
+.features {}
+
+.features__title {
+   font-size: 48px;
+   line-height: 1.25;
+   text-align: center;
+   color: #000000;
+   margin: 126px 0 122px 0;
+}
+
+
+
+.features__items {
+   max-width: 1530px;
+   margin: 0 auto;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+
+
+}
+
+.features__item {
+   max-width: 1530px;
+   display: flex;
+   flex-direction: column;
+
+}
+
+.features__img {
+   width: 91px;
+   height: 91px;
+   align-self: center;
+}
+
+.features__description {
+   font-size: 30px;
+   color: #000000;
+   padding-top: 70px;
+}
+
+/*styles for features */
+
+/*styles for generation */
+.generation {
+   max-width: 2000px;
+   margin: 0 auto;
+}
+
+.generation-body {
+   margin-top: 125px;
+}
+
+.generation-vision {
+   display: flex;
+}
+
+.generation-vision__text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 1072px;
+   height: 656px;
+   background-color: #232323;
+   opacity: 0.9;
+   position: relative;
+
+}
+
+.generation-vision__text::after {
+   content: " ";
+   width: 544px;
+   height: 544px;
+   background: url(/assets/image/generation/icon.png);
+   background-repeat: no-repeat;
+   position: absolute;
+   top: 66px;
+   right: -219px;
+
+}
+
+.generation-vision__title {
+   font-size: 92px;
+   line-height: 1.11;
+   color: #ffffff;
+   padding-left: 130px;
+   max-width: 830px;
+   position: relative;
+   z-index: 2;
+}
+
+.generation-vision__title:after {
+   content: " ";
+   width: 14px;
+   height: 14px;
+   background-color: red;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   position: absolute;
+   z-index: 2;
+   bottom: 18px;
+   margin-left: 2px;
+
+}
+
+.generation__span {
+   color: #ff343d;
+}
+
+.generation-vision__button {
+   background-color: #3b3b3b;
+   color: #ffffff;
+   text-decoration: none;
+   margin: 49px 0 0 130px;
+}
+
+.generation-flying {
+   display: flex;
+   margin-top: 146px;
+}
+
+.generation-flying__text {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 1072px;
+   height: 656px;
+   opacity: 0.9;
+   position: relative;
+
+}
+
+.generation-flying__title {
+   font-size: 92px;
+   line-height: 1.11;
+   color: #070707;
+   padding-left: 130px;
+   max-width: 830px;
+   position: relative;
+}
+
+.generation-flying__title:after {
+   content: " ";
+   width: 14px;
+   height: 14px;
+   background-color: red;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   position: absolute;
+   bottom: 18px;
+}
+
+
+.generation-flying__button {
+   background-color: #eff2f6;
+   color: #0c0c0c;
+   text-decoration: none;
+   margin: 49px 0 0 130px;
+}
+
+/*styles for generation */
+
+/*styles for journey */
+.journey {
+   width: 2004px;
+   height: 1190px;
+   margin: 0 auto;
+   background: url(/assets/image/journey/bg.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end;
+
+}
+
+.journey-body {
+   padding-bottom: 208px;
+   text-align: center;
+}
+
+.journey__title {
+   font-size: 92px;
+   line-height: 1.11;
+   padding-bottom: 56px;
+   color: #ffffff;
+}
+
+.journey__button {
+   background-color: #fff;
+   color: #318f76;
+   padding: 0;
+   margin: 0 0 0 38%
+}
+
+/*styles for journey */
+/*styles for footer*/
+
+.footer {
+   max-width: 2000px;
+   margin: 196px auto;
+   text-align: center;
+   position: relative;
+   z-index: 2;
+}
+
+.footer__logo {
+   padding-bottom: 34px;
+   position: relative;
+   z-index: 2;
+
+}
+
+.footer-text {
+   font-size: 14px;
+   line-height: 2.14;
+   color: #92a1a5;
+   position: relative;
+   z-index: 2;
+}
+
+.footer-text::before {
+   content: " PHANTOM";
+   display: block;
+   text-shadow: 8px 13.9px 95px rgba(0, 0, 0, 0.05);
+   font-size: 203px;
+   color: rgb(245, 241, 241);
+   line-height: 0.5;
+   position: absolute;
+   left: 23%;
+   bottom: 10%;
+   z-index: -1;
+}
+
+/*styles for footer*/
