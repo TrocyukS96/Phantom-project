@@ -566,19 +566,25 @@ body {
    z-index: 2;
 }
 
-.footer__logo {
+.logo {
    padding-bottom: 34px;
    position: relative;
-   z-index: 2;
+   display: inline-block;
+}
 
+.logo::after {
+   content: " ";
+   width: 20px;
+   height: 20px;
+   background: url(/assets/image/header/circle.png) no-repeat;
+   position: absolute;
+   top: -6px;
+   right: -21px;
 }
 
 .footer-text {
    font-size: 14px;
    line-height: 2.14;
-   color: #92a1a5;
-   position: relative;
-   z-index: 2;
 }
 
 .footer-text::before {
