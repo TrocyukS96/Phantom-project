@@ -42,7 +42,6 @@ body {
    justify-content: center;
 }
 
-.logo {}
 
 .header-left__link {
    margin-left: 71px;
@@ -168,7 +167,6 @@ body {
    margin-right: 180px;
    position: relative;
    line-height: 30px;
-   font-size: ;
 }
 
 .main-text__hint {
@@ -304,7 +302,6 @@ body {
    opacity: 0.65;
    background-color: #000000;
    position: absolute;
-   t0+l0
 }
 
 .fly__title {

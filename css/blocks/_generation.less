@@ -1,0 +1,120 @@
+// main: ./../main.less
+.generation {
+   max-width: 2000px;
+   margin: 0 auto;
+
+   &-body {
+      margin-top: 125px;
+   }
+
+   &-vision {
+      display: flex;
+   }
+
+   &-vision__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 1072px;
+      height: 656px;
+      background-color: #232323;
+      opacity: 0.9;
+      position: relative;
+
+      &::after {
+         content: " ";
+         width: 544px;
+         height: 544px;
+         background: url(/assets/image/generation/icon.png);
+         background-repeat: no-repeat;
+         position: absolute;
+         top: 66px;
+         right: -219px;
+
+      }
+   }
+
+   &-vision__title {
+      font-size: 92px;
+      line-height: 1.11;
+      color: #ffffff;
+      padding-left: 130px;
+      max-width: 830px;
+      position: relative;
+      z-index: 2;
+
+      &:after {
+         content: " ";
+         width: 14px;
+         height: 14px;
+         background-color: red;
+         border-radius: 50%;
+         -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+         -ms-border-radius: 50%;
+         -o-border-radius: 50%;
+         position: absolute;
+         z-index: 2;
+         bottom: 18px;
+         margin-left: 2px;
+      }
+   }
+
+   &__span {
+      color: #ff343d;
+   }
+
+   &-vision__button {
+      background-color: #3b3b3b;
+      color: #ffffff;
+      text-decoration: none;
+      margin: 49px 0 0 130px;
+   }
+
+   &-flying {
+      display: flex;
+      margin-top: 146px;
+   }
+
+   &-flying__text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 1072px;
+      height: 656px;
+      opacity: 0.9;
+      position: relative;
+
+   }
+
+   &-flying__title {
+      font-size: 92px;
+      line-height: 1.11;
+      color: #070707;
+      padding-left: 130px;
+      max-width: 830px;
+      position: relative;
+
+      &:after {
+         content: " ";
+         width: 14px;
+         height: 14px;
+         background-color: red;
+         border-radius: 50%;
+         -webkit-border-radius: 50%;
+         -moz-border-radius: 50%;
+         -ms-border-radius: 50%;
+         -o-border-radius: 50%;
+         position: absolute;
+         bottom: 18px;
+      }
+   }
+
+   &-flying__button {
+      background-color: #eff2f6;
+      color: #0c0c0c;
+      text-decoration: none;
+      margin: 49px 0 0 130px;
+   }
+
+}

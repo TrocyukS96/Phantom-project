@@ -1,0 +1,79 @@
+// main: ./../main.less
+.header {
+   background-color: rgb(150, 241, 89);
+   overflow: hidden;
+   position: relative;
+
+   &-body {
+      display: flex;
+      justify-content: space-between;
+      padding: 72px 0 20px 0;
+      position: relative;
+      z-index: 10;
+   }
+
+   &-left {
+      max-width: 260px;
+      display: flex;
+      justify-content: center;
+   }
+
+   &-left__link {
+      margin-left: 71px;
+   }
+
+   &-right {
+      display: flex;
+   }
+
+   &__burger {
+      display: block;
+      position: relative;
+      width: 30px;
+      height: 20px;
+
+      &::before,
+      &::after {
+         content: " ";
+         position: absolute;
+         background-color: #fff;
+         width: 100%;
+         height: 2px;
+         left: 0;
+      }
+
+      &::before {
+         top: 0;
+      }
+
+      &::after {
+         bottom: 0;
+      }
+   }
+
+   &__span {
+      position: absolute;
+      background-color: #fff;
+      left: 0;
+      width: 100%;
+      height: 2px;
+      top: 9px;
+   }
+
+   &__menu {
+      display: flex;
+   }
+
+   &__btn {
+      padding: 0 38px 0px 0;
+   }
+
+   &__btn-item {
+      color: rgb(255, 255, 255);
+      border-style: none;
+      background-color: rgb(94, 196, 221);
+      line-height: 24px;
+      text-transform: uppercase;
+      border-bottom: 3px solid #fff;
+   }
+}

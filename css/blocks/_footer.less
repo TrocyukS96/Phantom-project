@@ -1,0 +1,39 @@
+// main: ./../main.less
+.footer {
+   max-width: 2000px;
+   margin: 196px auto;
+   text-align: center;
+   position: relative;
+   z-index: 2;
+
+   &-text {
+      font-size: 14px;
+      line-height: 2.14;
+
+      &::before {
+         content: " PHANTOM";
+         display: block;
+         text-shadow: 8px 13.9px 95px rgba(0, 0, 0, 0.05);
+         font-size: 203px;
+         color: rgb(245, 241, 241);
+         line-height: 0.5;
+         position: absolute;
+         left: 23%;
+         bottom: 10%;
+         z-index: -1;
+      }
+
+      ::before {
+         content: " PHANTOM";
+         display: block;
+         text-shadow: 8px 13.9px 95px rgba(0, 0, 0, 0.05);
+         font-size: 203px;
+         color: rgb(245, 241, 241);
+         line-height: 0.5;
+         position: absolute;
+         left: 23%;
+         bottom: 10%;
+         z-index: -1;
+      }
+   }
+}

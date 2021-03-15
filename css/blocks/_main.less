@@ -1,0 +1,85 @@
+// main: ./../main.less
+.main {
+   position: relative;
+   z-index: 10;
+
+
+   .main-body {
+      margin: 0px auto 0 auto;
+      padding-top: 95px;
+      max-width: 1530px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+   }
+
+   .main-slider {
+      align-self: flex-start;
+      margin-top: 240px;
+   }
+
+   .main-text__title {
+      font-size: 60px;
+      padding-bottom: 48px;
+   }
+
+   .main-text__description {
+      max-width: 390px;
+      color: #92a1a5;
+      font-weight: 400;
+      margin-right: 180px;
+      position: relative;
+      line-height: 30px;
+   }
+
+   .main-text__hint {
+      transform: rotate(90deg);
+      -webkit-transform: rotate(90deg);
+      -moz-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+      -o-transform: rotate(90deg);
+      position: absolute;
+      bottom: 113px;
+      left: -42px;
+   }
+
+   .main-wrap {
+      background-color: #fff;
+      width: 650px;
+      height: 650px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      margin: 100px 100px 192px 0;
+      position: relative;
+
+      .main-wrap::after {
+         content: "MARS ";
+         color: #ffffff;
+         position: absolute;
+         top: 353px;
+         right: -615px;
+         font-size: 369px;
+         line-height: 30px;
+         letter-spacing: 45px;
+         text-shadow: 0 0 55px rgba(0, 1, 1, 0.15);
+         opacity: 0.5;
+         transform: rotate(90deg);
+         -webkit-transform: rotate(90deg);
+         -moz-transform: rotate(90deg);
+         -ms-transform: rotate(90deg);
+         -o-transform: rotate(90deg);
+      }
+   }
+
+   .main-wrap__img {
+      max-width: 900px;
+      min-height: 526px;
+      position: absolute;
+      top: 5%;
+      right: -19%;
+
+   }
+}

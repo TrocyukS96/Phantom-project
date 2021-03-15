@@ -1,0 +1,29 @@
+// main: ./../main.less
+.about {
+   &-items {
+      display: flex;
+   }
+
+   &-fly {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      flex: 1 1 66.667%;
+      height: 614px;
+      background: url(/assets/image/about/view.png);
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      position: relative;
+
+      &::before {
+         content: " ";
+         width: 616px;
+         height: 614px;
+         opacity: 0.65;
+         background-color: #000000;
+         position: absolute;
+
+      }
+   }
+}
