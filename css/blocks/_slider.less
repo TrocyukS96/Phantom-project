@@ -9,19 +9,32 @@
       flex-direction: column;
       justify-content: center;
       width: 1394px;
-      height: 1032px;
+      height: 1000px;
       background-color: #eff2f6;
       text-align: left;
 
       @media (max-width: 1840px) {
-         width: 1394px;
-         height: 1032px;
+         width: 1189px;
+         justify-content: flex-start;
+         padding: 259px 0 0 0;
+         background-color: transparent;
+         height: 620px;
+         border: 2px solid red;
       }
 
-      @media (max-width: 572px) {
+      @media (max-width: 560px) {
          justify-content: start;
-         margin: 155px 0 0 0;
+         margin: 0% 0 0 70px;
+         background-color: transparent;
       }
+
+      @media (max-width:370px) {
+         justify-content: start;
+         margin: 0% 0 0 0px;
+         background-color: transparent;
+      }
+
+
    }
 
    &__title {
@@ -36,17 +49,27 @@
       }
 
       @media (max-width: 1890px) {
-         margin: 0px 0 0px 10%;
+         margin: 0px 0 0px 6%;
       }
 
       @media (max-width: 1600px) {
          margin: 0px 0 25px 5px;
       }
 
-      @media (max-width: 572px) {
-         margin: 0px 0 25px 100px;
+      @media (max-width: 767px) {
+         font-size: 40px;
+         line-height: 0px;
+      }
+
+      @media (max-width: 410px) {
+         margin: -60px 0 25px 6px;
+      }
+
+      @media (max-width: 370px) {
+         margin: -60px 0 25px 70px;
       }
    }
+
 
    &__text {
       width: 392px;
@@ -63,19 +86,33 @@
       }
 
       @media (max-width: 1890px) {
-         margin: 28px 0 239px 10%;
+         margin: 28px 0 239px 6%;
       }
 
       @media (max-width: 1600px) {
          margin: 0px 0 0px 5px;
       }
 
-      @media (max-width: 572px) {
-         margin: 0px 0 0px 95px;
-         width: 347px;
-         height: 0px;
-         line-height: 1.14;
+      @media (max-width: 767px) {
+         width: 252px;
+         font-size: 12px;
+         line-height: 16px;
       }
+
+      @media (max-width: 410px) {
+         margin: 0px 0 0px 10px;
+         width: 210px;
+         padding: 0;
+      }
+
+      @media (max-width: 370px) {
+         margin: 0px 0 0px 70px;
+         width: 210px;
+         padding: 0;
+
+      }
+
+
    }
 
    &__scroll {
@@ -87,22 +124,31 @@
       color: #000000;
       border-style: none;
       transform: rotate(-90deg);
+      background-color: transparent;
 
       @media (max-width: 2120px) {
          margin: 23px 0 11px 145px;
       }
 
       @media (max-width: 1890px) {
-         margin: 0px 0 0px 7%;
+         margin: 0px 0 0px 1%;
          paddding: 0 0 0 15px;
       }
 
       @media (max-width: 1600px) {
          position: absolute;
-         bottom: 71px;
-         left: -126px;
+         bottom: 15%;
+         left: -51px;
+      }
 
+      @media (max-width: 560px) {
+         top: 430px;
+         left: -141px;
+      }
 
+      @media (max-width: 410px) {
+         top: 207px;
+         left: -134px;
       }
    }
 }
