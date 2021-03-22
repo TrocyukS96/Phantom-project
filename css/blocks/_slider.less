@@ -1,16 +1,108 @@
 // main: ./../main.less
-.slider__item {
-   background-color: rgb(122, 119, 119);
-   width: 7px;
-   height: 7px;
-   border-radius: 50%;
-   -webkit-border-radius: 50%;
-   -moz-border-radius: 50%;
-   -ms-border-radius: 50%;
-   -o-border-radius: 50%;
-   margin: 17px 71px 0 0;
-}
+.slider {
+   position: absolute;
+   top: 0;
+   left: 0;
 
-.slider__item--red {
-   background-color: #ff343d;
+   &__item {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 1394px;
+      height: 1032px;
+      background-color: #eff2f6;
+      text-align: left;
+
+      @media (max-width: 1840px) {
+         width: 1394px;
+         height: 1032px;
+      }
+
+      @media (max-width: 572px) {
+         justify-content: start;
+         margin: 155px 0 0 0;
+      }
+   }
+
+   &__title {
+      font-family: Montserrat;
+      font-size: 60px;
+      line-height: 0.5;
+      color: #000000;
+      margin: 0px 0px 55px 240px;
+
+      @media (max-width: 2120px) {
+         margin: 0px 0 0px 200px;
+      }
+
+      @media (max-width: 1890px) {
+         margin: 0px 0 0px 10%;
+      }
+
+      @media (max-width: 1600px) {
+         margin: 0px 0 25px 5px;
+      }
+
+      @media (max-width: 572px) {
+         margin: 0px 0 25px 100px;
+      }
+   }
+
+   &__text {
+      width: 392px;
+      height: 44px;
+      margin: 28px 0 212px 240px;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 2.14;
+      letter-spacing: normal;
+      color: #92a1a5;
+
+      @media (max-width: 2120px) {
+         margin: 28px 0 239px 200px;
+      }
+
+      @media (max-width: 1890px) {
+         margin: 28px 0 239px 10%;
+      }
+
+      @media (max-width: 1600px) {
+         margin: 0px 0 0px 5px;
+      }
+
+      @media (max-width: 572px) {
+         margin: 0px 0 0px 95px;
+         width: 347px;
+         height: 0px;
+         line-height: 1.14;
+      }
+   }
+
+   &__scroll {
+      width: 118px;
+      margin: 212px 23px 0 240px;
+      font-family: Montserrat;
+      font-size: 17px;
+      font-weight: bold;
+      color: #000000;
+      border-style: none;
+      transform: rotate(-90deg);
+
+      @media (max-width: 2120px) {
+         margin: 23px 0 11px 145px;
+      }
+
+      @media (max-width: 1890px) {
+         margin: 0px 0 0px 7%;
+         paddding: 0 0 0 15px;
+      }
+
+      @media (max-width: 1600px) {
+         position: absolute;
+         bottom: 71px;
+         left: -126px;
+
+
+      }
+   }
 }
