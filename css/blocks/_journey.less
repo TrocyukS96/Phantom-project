@@ -11,22 +11,129 @@
    justify-content: center;
    align-items: flex-end;
 
+   @media(max-width:1980px) {
+      width: 1700px;
+      height: 1100px;
+      align-items: flex-start;
+   }
+
+   @media(max-width:1180px) {
+      width: 930px;
+      height: 850px;
+      padding: 0 15px;
+   }
+
+   @media(max-width:910px) {
+      width: 798px;
+      height: 670px;
+      padding: 0 15px;
+   }
+
+   @media(max-width:767px) {
+      width: 681px;
+      height: 417px;
+      padding: 0px;
+   }
+
+
+   @media(max-width:700px) {
+      width: 629px;
+      height: 382px;
+   }
+
+   @media(max-width:530px) {
+      width: 460px;
+      height: 290px;
+   }
+
+   @media(max-width:360px) {
+      width: 394px;
+      height: 270px;
+   }
+
+
+
    &-body {
       padding-bottom: 208px;
       text-align: center;
+
+      @media(max-width:767px) {
+         padding-bottom: 0;
+      }
+
    }
 
    &__title {
-      font-size: 92px;
+      font-size: 97px;
       line-height: 1.11;
       padding-bottom: 56px;
       color: #ffffff;
+
+      @media(max-width:1980px) {
+         padding-top: 550px;
+      }
+
+      @media(max-width:910px) {
+         padding-top: 402px;
+         font-size: 67px;
+         line-height: 10px;
+         padding-bottom: 50px;
+      }
+
+      @media(max-width:767px) {
+         padding-top: 272px;
+         font-size: 50px;
+         line-height: 7px;
+         padding-bottom: 45px;
+      }
+
+      @media(max-width:700px) {
+         padding-top: 258px;
+         font-size: 44px;
+         line-height: 7px;
+         padding-bottom: 36px;
+      }
+
+      @media(max-width:530px) {
+         padding-top: 183px;
+         padding-right: 51px;
+         font-size: 36px;
+         line-height: 0px;
+         padding-bottom: 32px;
+      }
+
+      @media(max-width:360px) {
+         padding-top: 161px;
+         padding-right: 51px;
+         font-size: 32px;
+      }
    }
 
    &__button {
       background-color: #fff;
       color: #318f76;
       padding: 0;
-      margin: 0 0 0 38%
+      margin: 0 0 0 339px;
+
+      @media(max-width:910px) {
+         margin: 0px 0 0 200px;
+      }
+
+      @media(max-width:767px) {
+         padding: 0;
+         margin: 0 0 0 133px;
+      }
+
+      @media(max-width:700px) {
+         margin: 0px 0 0 105px;
+      }
+
+      @media(max-width:530px) {
+         margin: 0px 0 0 79px;
+      }
+
+      @media(max-width:360px) {
+         margin: 0px 0 0 79px;
+      }
    }
 }
